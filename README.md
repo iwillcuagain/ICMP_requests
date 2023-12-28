@@ -1,1 +1,3 @@
 # ICMP_requests
+The provided Python script is a network scanning tool using the Scapy library. It sends ICMP (Internet Control Message Protocol) packets to a range of IP addresses within the subnet 192.168.1.0/24. The script records the responses, showing details of successful packets and logging the corresponding IP addresses to a file called "Existing_ip.txt". The script also includes a timestamp for each packet and handles interruptions (e.g., keyboard interrupt) gracefully.
+Im looking forward to doing more with this project like, for example, taking in user input, crafting and sending packets of various protocols, etc.
